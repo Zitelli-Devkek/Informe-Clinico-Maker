@@ -1,9 +1,19 @@
-# Contribution Guidelines
+# ¡Informe Clínico Maker!
+En tiempos de pandemia, la programación es un elemento clave para poder agilizar los tiempos en todas las áreas críticas, y este archivo de Python fue creado con el fin de recrear un script básico utilizado en muchas apps relacionadas con el sistema de salud, y añadiendo un toque personal.
 
-Please ensure your pull request adheres to the following guidelines:
+Para poder ejecutar este archivo, se necesitarán ciertos elementos no nativos de Python, por lo que tendrás que ir al cmd/símbolo de sistema y escribir lo siguiente:
+-pip install SpeechRecognition
+-pip install pyttsx3
+-pip install pyaudio 
+-En caso de que aparezca un error con el último, tendrás que escribir lo siguiente:
+-pip install pipwin
+-pipwin install pyaudio (y listo)
 
-- Alphabetize your entry.
-- Search previous suggestions before making a new one, as yours may be a duplicate.
+El archivo .py está compuesto por una serie de preguntas que se pueden dividir en dos grupos:
+- Preguntas de analisis.
+- Preguntas que almacenan la respuesta sin más.
+El primer grupo de preguntas está dirigido a dar un rápido diagnóstico para saber si la persona podría estar padeciendo coronavirus o una enfermedad con sintomas parecidos.
+
 - Suggested READMEs should be beautiful or stand out in some way.
 - Make an individual pull request for each suggestion.
 - New categories, or improvements to the existing categorization are welcome.
