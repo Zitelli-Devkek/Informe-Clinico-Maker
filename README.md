@@ -2,12 +2,12 @@
 En tiempos de pandemia, la programación es un elemento clave para poder agilizar los tiempos en todas las áreas críticas, y este archivo de Python fue creado con el fin de recrear un script básico utilizado en muchas apps relacionadas con el sistema de salud, y añadiendo un toque personal.
 
 Para poder ejecutar este archivo, se necesitarán ciertos elementos no nativos de Python, por lo que tendrás que ir al cmd/símbolo de sistema y escribir lo siguiente:
--pip install SpeechRecognition
--pip install pyttsx3
--pip install pyaudio 
--En caso de que aparezca un error con el último, tendrás que escribir lo siguiente:
--pip install pipwin
--pipwin install pyaudio (y listo)
+- pip install SpeechRecognition
+- pip install pyttsx3
+- pip install pyaudio 
+- En caso de que aparezca un error con el último, tendrás que escribir lo siguiente:
+- pip install pipwin
+- pipwin install pyaudio (y listo)
 
 El archivo .py está compuesto por una serie de preguntas que se pueden dividir en dos grupos:
 - Preguntas de analisis.
