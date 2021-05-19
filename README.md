@@ -1,11 +1,11 @@
 # ¡Informe Clínico Maker!
-En tiempos de pandemia, la programación es un elemento clave para poder agilizar los tiempos en todas las áreas críticas, y este archivo de Python fue creado con el fin de recrear un script básico utilizado en muchas apps relacionadas con el sistema de salud, y añadiendo un toque personal.
+En tiempos de pandemia, la programación es un elemento clave para poder agilizar los tiempos en todas las áreas críticas, y este archivo de Python fue creado con el fin de recrear un script de código y estructura básica, con una utilidad  relacionada con el sistema de salud. Además añadiremos un toque personal.
 
 Para poder ejecutar este archivo, se necesitarán ciertos elementos no nativos de Python, por lo que tendrás que ir al cmd/símbolo de sistema y escribir lo siguiente:
 - pip install SpeechRecognition
 - pip install pyttsx3
 - pip install pyaudio 
-- En caso de que aparezca un error con el último, tendrás que escribir lo siguiente:
+En caso de que aparezca un error con el último, tendrás que escribir lo siguiente:
 - pip install pipwin
 - pipwin install pyaudio (y listo)
 
@@ -13,14 +13,10 @@ El archivo .py está compuesto por una serie de preguntas que se pueden dividir 
 - Preguntas de analisis.
 - Preguntas que almacenan la respuesta sin más.
 El primer grupo de preguntas está dirigido a dar un rápido diagnóstico para saber si la persona podría estar padeciendo coronavirus o una enfermedad con sintomas parecidos.
+Luego de responder las preguntas que llevarán a tu diagnóstico, y las preguntas siguientes destinadas a enviarse a tu médico para ahorrar tiempo de consulta, ¡deberías de encontrarte con Guma! La asistende por voz que responde a los siguientes comandos:
 
-- Suggested READMEs should be beautiful or stand out in some way.
-- Make an individual pull request for each suggestion.
-- New categories, or improvements to the existing categorization are welcome.
-- Keep descriptions short and simple, but descriptive.
-- Start the description with a capital and end with a full stop/period.
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-- Use the `#readme` anchor for GitHub READMEs to link them directly
+- Nombre: Guma se presentará
+- Navegar: Guma preguntará que quieres buscar, y lo que respondas será buscado en Google, abriéndose una pestaña.
+- Mapa: Guma te preguntará adonde quieres ir. Seguida de tu respuesta, se buscará en Google Maps lo que hayas mencionado.
 
-Thank you for your suggestions!
+PD: Al ejecturarlo, podrán darse cuenta que el programa está dirigido al pueblo argentino, mencionando, como ejemplo, algunos hospitales conocidos. ¡Tanto ese tipo de información como los comandos y las acciones de Guma son totalmente modificables!
